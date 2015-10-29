@@ -10,7 +10,7 @@ if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     sys.exit()
 
-required = []
+required = ['curl']
 setup(
     name='certifi',
     version='1.0.1',
